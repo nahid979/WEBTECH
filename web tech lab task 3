@@ -1,0 +1,173 @@
+/* Universal Selector */
+* {
+    box-sizing: border-box;
+}
+
+/* Element Selector */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Group Selector */
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+/* Navigation Links */
+.navbar a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Link Hover */
+.navbar a:hover {
+    background-color: #2563eb;
+    color: white;
+}
+
+/* Main Content */
+main {
+    max-width: 1000px;
+    margin: 80px auto 20px;
+    padding: 20px;
+}
+
+/* ID Selector */
+#about {
+    width: 80%;
+    padding: 20px;
+    border: 2px solid #2563eb;
+    margin: 20px auto;
+    background-color: white;
+}
+
+/* About Image */
+#about img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+}
+
+/* Section Styling */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: left;
+}
+
+/* Table Header */
+th {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+/* Table Rows */
+tr:nth-child(even) {
+    background-color: #e5e7eb;
+}
+
+/* Form Styling */
+fieldset {
+    border: 2px solid #2563eb;
+    padding: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #1e3a8a;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit and Reset Buttons */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    background-color: #2563eb;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Button Hover */
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #1e3a8a;
+}
+
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer Links */
+footer a {
+    display: inline-block;
+    color: #93c5fd;
+    text-decoration: none;
+}
+
+/* Footer Link Hover */
+footer a:hover {
+    color: yellow;
+}
